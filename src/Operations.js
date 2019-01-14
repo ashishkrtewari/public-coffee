@@ -24,7 +24,7 @@ export class Operations extends Component {
   dispenseCoffee() {
     if (this.coffeeLevel > 5 && this.waterLevel > 10) {
       this.checkAndUpdateLevels({coffeeLevel: this.coffeeLevel - 5, waterLevel: this.waterLevel - 10});
-      console.log(`You're served, an amazing cup of Coffee ! Enjoy.`);
+      alert(`You're served, an amazing cup of Coffee ! Enjoy.`);
     } else {
       let coffeeErr;
       let waterErr;
