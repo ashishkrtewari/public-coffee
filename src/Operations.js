@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 export class Operations extends Component {
-  coffeeLevel = this.props.levels.coffeeLevel;
-  waterLevel = this.props.levels.waterLevel;
+  coffeeLevel;
+  waterLevel;
 
   // Add Coffee
   addCoffee() {
@@ -24,7 +24,7 @@ export class Operations extends Component {
   dispenseCoffee() {
     if (this.coffeeLevel > 5 && this.waterLevel > 10) {
       this.checkAndUpdateLevels({coffeeLevel: this.coffeeLevel - 5, waterLevel: this.waterLevel - 10});
-      alert(`You're served, an amazing cup of Coffee ! Enjoy.`);
+      console.log(`You're served, an amazing cup of Coffee ! Enjoy.`);
     } else {
       let coffeeErr;
       let waterErr;
@@ -64,6 +64,8 @@ export class Operations extends Component {
   };
 
   render() {
+    this.coffeeLevel = this.props.levels.coffeeLevel;
+    this.waterLevel = this.props.levels.waterLevel;
     return (
       <div>
         <button type="button" style={this.btnStyle} onClick={this.addCoffee.bind(this)}>Add Coffee</button>
