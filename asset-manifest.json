@@ -1,14 +1,14 @@
 {
-  "main.css": "/public-coffee/static/css/main.fb6135e3.chunk.css",
-  "main.js": "/public-coffee/static/js/main.5eb4cdfd.chunk.js",
-  "main.js.map": "/public-coffee/static/js/main.5eb4cdfd.chunk.js.map",
+  "main.css": "/public-coffee/static/css/main.e54855fa.chunk.css",
+  "main.js": "/public-coffee/static/js/main.6ccab911.chunk.js",
+  "main.js.map": "/public-coffee/static/js/main.6ccab911.chunk.js.map",
   "static/js/1.f03e8ae8.chunk.js": "/public-coffee/static/js/1.f03e8ae8.chunk.js",
   "static/js/1.f03e8ae8.chunk.js.map": "/public-coffee/static/js/1.f03e8ae8.chunk.js.map",
   "runtime~main.js": "/public-coffee/static/js/runtime~main.4c927016.js",
   "runtime~main.js.map": "/public-coffee/static/js/runtime~main.4c927016.js.map",
   "static/media/machine.png": "/public-coffee/static/media/machine.3ae41ef7.png",
-  "static/css/main.fb6135e3.chunk.css.map": "/public-coffee/static/css/main.fb6135e3.chunk.css.map",
+  "static/css/main.e54855fa.chunk.css.map": "/public-coffee/static/css/main.e54855fa.chunk.css.map",
   "index.html": "/public-coffee/index.html",
-  "precache-manifest.b664ac18cfd3d21c15c730b2f4e1ce58.js": "/public-coffee/precache-manifest.b664ac18cfd3d21c15c730b2f4e1ce58.js",
+  "precache-manifest.ce9d1015e9f0c1baa7f1f3931383cbf4.js": "/public-coffee/precache-manifest.ce9d1015e9f0c1baa7f1f3931383cbf4.js",
   "service-worker.js": "/public-coffee/service-worker.js"
 }
